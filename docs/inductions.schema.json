@@ -1,0 +1,54 @@
+{
+  "id": 487753,
+  "num_rows": 1000,
+  "file_format": "json",
+  "name": "inductions",
+  "array": true,
+  "columns": [
+    {
+      "name": "id",
+      "null_percentage": 0,
+      "type": "FDA NDC Code",
+      "formula": null
+    },
+    {
+      "name": "name",
+      "null_percentage": 0,
+      "type": "Construction Standard Cost Code",
+      "formula": null
+    },
+    {
+      "name": "type",
+      "null_percentage": 0,
+      "type": "Construction Role",
+      "formula": null
+    },
+    {
+      "name": "passScore",
+      "null_percentage": 0,
+      "type": "Number",
+      "min": 1,
+      "max": 100,
+      "decimals": 0,
+      "formula": null
+    },
+    {
+      "name": "employeeScore",
+      "null_percentage": 0,
+      "type": "Number",
+      "min": 1,
+      "max": 100,
+      "decimals": 0,
+      "formula": null
+    },
+    {
+      "name": "completedAt",
+      "null_percentage": 0,
+      "type": "Datetime",
+      "min": "01/25/2022",
+      "max": "01/25/2023",
+      "format": "%Y-%m-%dT%H:%M:%SZ",
+      "formula": null
+    }
+  ]
+}
